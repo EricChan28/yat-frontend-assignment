@@ -1,0 +1,18 @@
+.icon {
+    fill: white;
+
+    &.icon-md {
+        width: 20px;
+        height: 20px;
+    }
+
+    &.icon-sm {
+        width: 14px;
+        height: 14px;
+    }
+
+    &.icon-lg {
+        width: 24px;
+        height: 24px;
+    }
+}
