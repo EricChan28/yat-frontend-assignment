@@ -2,27 +2,43 @@
 @import "../../assets/styles/variables";
 
 .main-layout {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: $background-color;
-    color: $text-color;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $background-color;
+  color: $text-color;
 
-    & > header {
-        @extend %flex-center;
-        height: 80px;
-        gap: 12px;
+  & > header {
+    @extend %flex-center;
+    padding-top: 28px;
 
-        & .icon-btn {
-            background-color: #ffffff19;
-        }
+    & .icon-btn {
+      background-color: #ffffff19;
+      margin: 0 8px;
     }
 
-    & > footer {
-        @extend %flex-center;
+    & .icon-btn:last-of-type svg {
+      width: 21px;
     }
 
-    & > main {
-        flex-grow: 1;
+    & .icon-btn:focus {
+      background: linear-gradient(180deg, #3f3b58 0%, #221a25 100%);
+
+      & .icon {
+        fill: white;
+      }
     }
+
+    & .icon-btn .icon {
+      fill: #bdbcc1;
+    }
+  }
+
+  & > footer {
+    @extend %flex-center;
+  }
+
+  & > main {
+    flex-grow: 1;
+  }
 }

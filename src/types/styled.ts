@@ -1,3 +1,3 @@
 export type StyledProps = {
-    className?: string;
-}
+  className?: string;
+};
