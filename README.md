@@ -1,8 +1,25 @@
+<img src="https://api-docs.y.at/img/yat-logo-white.svg" width="25%">
+
+<div style="background: url(https://api-docs.y.at/img/yat-logo-white.svg);background-color: #090719;height:70px;background-repeat:no-repeat;background-size: 100px;background-position: center; border-radius: 10px;border: 1px solid #fff;width: 100%;margin:0; padding:0;">
+
+</div>
+
 # Frontend - ReactJS Assignment
+
+## ✨ Introduction
+
+Hello! Glad to see you here! 👋
+
+This page contains all the information you'll need to run and work on this assignment. If you have any question, you can find ways to contact us at the bottom of this page.
+
+You should fork this repo to be able to work on it.
+
 
 ## 💻 Assignment
 
 ### 💣 The Problem
+
+Imagine we just received new designs to build an interface for Yat. It's a page where you can see which collectibles your friends own. We call these groups "Pods":
 
 ![Screenshot 2023-02-13 at 11 59 46 PM](https://user-images.githubusercontent.com/1178980/218674647-c9b18d83-2459-4069-bc52-ff7de9cc8a40.png)
 
@@ -13,18 +30,18 @@ As a user, you're able to:
 - Sort by price or most recent acquired
 - Search by keyword
 
-Figma is [here](https://www.figma.com/file/0u4WnFXeOBzR8I3tEcG393/Frontend-Assignment).
+We would like you to build a functional interface based on this design. The Figma file can be found [here](https://www.figma.com/file/ySw3vbGUssxB811UQY0Qsg/Collection-Page?node-id=267%3A93607&t=PLIrc087lMSf2gxs-1).
 
 We understand this design can take a meaningful amount of time to be implemented. If time is a constraint, focus on areas where you can really showcase your skills. Are you a CSS guru? Show us what you can do. If you prefer to work "under the hood", how do you handle the user actions and optimize the page to allow Pods to contain thousands of collectibles?
 
 You're welcome to use libraries that could help you with this task. Also, feel free to modify any aspect of the code if you think that will make it better.
 
-The data is being provided by [React Query](https://react-query-v3.tanstack.com) in combination with a [Mock Server](https://mswjs.io). The mocked responses can be modified [here](https://github.com/pullidea-dev/frontend-assignment/blob/main/src/mocks/handlers/pod.ts).
+The data is being provided by [React Query](https://react-query-v3.tanstack.com) in combination with a [Mock Server](https://mswjs.io). The mocked responses can be modified [here](https://github.com/GabeReis/yat-frontend-assignment/blob/main/src/mocks/handlers/pod.ts).
 
 
 ### 📚 Resources
 
-- [Figma file with UI design](https://www.figma.com/file/0u4WnFXeOBzR8I3tEcG393/Frontend-Assignment)
+- [Figma file with UI design](https://www.figma.com/file/ySw3vbGUssxB811UQY0Qsg/Collection-Page?node-id=267%3A93607&t=PLIrc087lMSf2gxs-1)
 - [React Query](https://react-query-v3.tanstack.com)
 - [Mock Service Worker](https://mswjs.io)
 
@@ -34,7 +51,7 @@ The data is being provided by [React Query](https://react-query-v3.tanstack.com)
 - We want to see how you approach this challenge
 - Build this UI for a regular desktop screen, but a responsive design will be a plus
 - If you use external libraries, tell us why and the reasoning behind your choice.
-- Make sure your solution works on different scenarios
+- Make sure your solution works on different scenarios (we will try to break it 😇)
 - Be creative. We love simple and clever solutions.
 
 
@@ -45,17 +62,29 @@ Are there other aspects that you would consider while building this page? For ex
 If you have new ideas or cool tricks to show us, go for it!
 
 
+### 🛑 Are You Stuck?
+
+If you can't make any progress or feel defeated, try a different approach:
+- Can you start with a small component in the UI? Keep iterating!
+- Is there something else you could add to make the experience more enjoyable for our users?
+
+Remember: we want to see what you are capable to do. Show off your coding and problem-solving skills. If you can't write even one single line, being a good storyteller can go a long way 🤣
+
+
 ## ▶️ Getting Started
 
 ### 🛠️ Installation Steps
 
-1. Install dependencies
+1. Fork the repository
+
+
+3. Install dependencies
 
 ```bash
 yarn install
 ```
 
-2. Run the app
+4. Run the app
 
 ```bash
 yarn start
@@ -77,3 +106,10 @@ Use this page to build the interface. Don't worry about routes, but you're welco
 - Comments (where they make sense)
 - Commit history, commit often to show your thought process
 - Tests are a plus
+
+
+## ✉️ Get in Touch
+
+If you have questions, plese reach out to the recruiter or directly to me:
+- [Gabe Reis](mailto:rio@tari.com)
+
